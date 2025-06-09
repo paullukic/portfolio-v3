@@ -154,7 +154,7 @@ export const CyborgVendorsSection: React.FC = () => {
                 <div>VENDOR_ID: CYB_001PAUL_lukic</div>
                 <div className="text-green-400">STATUS: ONLINE</div>
                 <div className="text-yellow-400">RATING: ★★★★★</div>
-                <div className="text-pink-400">PARTICLES: ON</div>
+                <div className="text-pink-400">AVAILABLE</div>
               </div>
             </div>
 
