@@ -12,7 +12,7 @@ import { HolographicMarketplace } from "@/components/layout/HolographicMarketpla
 export default function Component() {
   return (
     <div className="min-h-screen bg-black text-cyan-400 overflow-hidden relative">
-      <ScanLinesEffect />
+      {/* <ScanLinesEffect /> */}
       <DataStreamOverlay />
       <ParticleEffectsOverlay />
       <GridBackground />
