@@ -12,7 +12,7 @@ export function DataStreamOverlay() {
     const interval = setInterval(() => {
       setStreams((prev) => {
         const newStreams = [...prev, generateStream()]
-        return newStreams.slice(-15) // Keep only last 15 streams
+        return newStreams.slice(-15)
       })
     }, 150)
 

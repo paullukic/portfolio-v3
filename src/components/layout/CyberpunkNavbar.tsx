@@ -1,14 +1,13 @@
-// src/components/layout/CyberpunkNavbar.tsx
 import { Button } from "@/components/ui/button";
 import { Wifi, Github, Linkedin, Paperclip } from "lucide-react";
 import { useEffect, useState } from "react";
-// Import the Tooltip components
+
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/tooltip"; // Adjust path if necessary
+} from "@/components/ui/tooltip"; 
 
 interface CyberpunkNavbarProps {
   name: string;
@@ -46,7 +45,6 @@ export const CyberpunkNavbar: React.FC<CyberpunkNavbarProps> = ({
   }, []);
 
   return (
-    // Wrap the entire navbar with TooltipProvider
     <TooltipProvider>
       <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent bg-opacity-70 backdrop-blur-md border-b border-purple-800 shadow-lg text-white p-4 flex items-center justify-between font-mono">
         <div className="flex items-center space-x-4">
