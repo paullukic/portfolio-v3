@@ -18,7 +18,6 @@ export function HoloAds() {
             <div className="bg-black/80 border border-yellow-400 p-2 rounded text-yellow-400 text-xs text-center font-mono">
               <div className="font-bold">TEODESK</div>
               <div>un_vailable currently</div>
-              <div className="text-green-400">50% OFF</div>
             </div>
           </Html>
         </group>

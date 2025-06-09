@@ -31,7 +31,7 @@ export function CyberpunkCanvas() {
 
           {/* Holo Text */}
           <HoloText text="4BEES" position={[3, -3, 0]} color="#ff0080" size={0.4} />
-          <HoloText text="SYSTEM ONLINE" position={[0, 0, -3]} color="#ffff00" size={0.5} />
+          <HoloText text="TEODESK" position={[0, 0, -3]} color="#ffff00" size={0.5} />
           <HoloText text="WELCOME CHOOM" position={[-2, -1, 2]} color="#00ff41" size={0.3} />
           <HoloText text="COLLABWRITING" position={[4, 2, -1]} color="#ff0080" size={0.4} />
           <HoloText text="WELCOME CHOOM" position={[0, 4, 1]} color="#ffff00" size={0.3} />
