@@ -53,7 +53,7 @@ export function HeroSection() {
           <div className="absolute top-2 left-2 w-3 h-3 bg-green-400 rounded-full animate-ping" />
           <div className="absolute top-2 right-2 text-xs text-cyan-400 font-mono animate-pulse">FRONT_END: ACTIVE</div>
           <div className="absolute bottom-2 left-2 text-xs text-pink-400 font-mono">BACK_END: ON</div>
-          <p className="text-left text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed font-mono">
+          <p className="text-left text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed font-mono">
             Full Stack Netrunner with 5+ cycles hacking the code matrix across megacorps and street-level gigs. 
             Known for dropping high-octane, user-centric programs with lethal speed and razor precision. 
             Battle-tested leading both frontend chrome and backend rigs, mentoring rookies in the shadows, 
