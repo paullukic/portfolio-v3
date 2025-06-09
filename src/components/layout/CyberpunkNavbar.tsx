@@ -50,18 +50,18 @@ export const CyberpunkNavbar: React.FC<CyberpunkNavbarProps> = ({
     <TooltipProvider>
       <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent bg-opacity-70 backdrop-blur-md border-b border-purple-800 shadow-lg text-white p-4 flex items-center justify-between font-mono">
         <div className="flex items-center space-x-4">
-          <Wifi className="text-green-400 h-6 w-6 animate-pulse" />
+          <Wifi className="text-green-400 h-4 w-4 animate-pulse" />
           <a
             href="/"
             className="text-xl font-bold text-transparent hover:scale-105 transition-transform duration-300"
           >
-            <h1 className="text-xl md:text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-pink-500 to-yellow-400 font-mono tracking-wider">
+            <h1 className="text-xs md:text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-pink-500 to-yellow-400 font-mono tracking-wider">
               {glitchText}
             </h1>
-            <div className="absolute inset-0 text-xl md:text-xl font-bold text-green-400 opacity-20 animate-pulse font-mono tracking-wider blur-sm">
+            <div className="absolute inset-0 text-xs md:text-xl font-bold text-green-400 opacity-20 animate-pulse font-mono tracking-wider blur-sm">
               {glitchText}
             </div>
-            <div className="absolute inset-0 text-xl md:text-xl font-bold text-pink-400 opacity-10 animate-ping font-mono tracking-wider">
+            <div className="absolute inset-0 text-xs md:text-xl font-bold text-pink-400 opacity-10 animate-ping font-mono tracking-wider">
               {glitchText}
             </div>
           </a>
@@ -131,7 +131,7 @@ export const CyberpunkNavbar: React.FC<CyberpunkNavbarProps> = ({
             className="cyber-button text-xs px-3 py-1 md:px-4 md:py-2 text-red-400"
             asChild
           >
-            <a href={`mailto:${email}`}>MAILTO:</a>
+            <a href={`mailto:${email}`}>MAILME</a>
           </Button>
         </div>
       </nav>

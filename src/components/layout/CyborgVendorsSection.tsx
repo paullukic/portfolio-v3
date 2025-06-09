@@ -10,7 +10,7 @@ export const CyborgVendorsSection: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 space-y-4">
           <div className="text-sm text-pink-400 font-mono animate-pulse">{"> SCANNING_VENDOR_NETWORK..."}</div>
-          <h2 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-pink-400 to-yellow-400 font-mono">
+          <h2 className="text-3xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-pink-400 to-yellow-400 font-mono">
             CYBORG_VENDORS
           </h2>
           <div className="text-lg text-yellow-400 font-mono animate-bounce">{"> ENHANCED_BEINGS_DETECTED"}</div>

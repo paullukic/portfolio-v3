@@ -49,7 +49,7 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div className="top-20 md:top-auto relative p-6 border-2 border-cyan-500/40 bg-black/60 backdrop-blur-sm">
+        <div className="top-20 md:top-auto my-4 relative p-6 border-2 border-cyan-500/40 bg-black/60 backdrop-blur-sm">
           <div className="absolute top-2 left-2 w-3 h-3 bg-green-400 rounded-full animate-ping" />
           <div className="absolute top-2 right-2 text-xs text-cyan-400 font-mono animate-pulse">FRONT_END: ACTIVE</div>
           <div className="absolute bottom-2 left-2 text-xs text-pink-400 font-mono">BACK_END: ON</div>
@@ -63,7 +63,7 @@ export function HeroSection() {
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-6 justify-center ">
+        <div className="flex mt-10 flex-row gap-6 justify-end ">
           <Button
             variant="ghost"
             size="icon"
