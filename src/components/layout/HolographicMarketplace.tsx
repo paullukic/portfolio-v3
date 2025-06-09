@@ -61,16 +61,23 @@ const MarketplaceItem = ({
           {icon}
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-pulse" />
         </div>
-        <Badge
-          className={`bg-gradient-to-r ${color} text-black font-bold font-mono text-xs px-2 py-1 relative overflow-hidden`}
-        >
-          <div className="absolute inset-0 bg-white/20 animate-ping opacity-20" />
-          {tech}
-        </Badge>
+        <div className="flex flex-col gap-1 items-end">
+          {tech
+            .replace(/_/g, " ") // Replace underscores with spaces
+            .split(/\s+/) // Split by whitespace
+            .map((t, idx) => (
+              <Badge
+                key={idx}
+                className={`bg-gradient-to-r ${color} text-black font-bold font-mono text-xs px-2 py-1 relative overflow-hidden`}
+              >
+                {t}
+              </Badge>
+            ))}
+        </div>
       </div>
 
       <div className="space-y-2">
-        <h3 className="text-xl font-bold text-cyan-400 group-hover:text-pink-400 transition-colors font-mono">
+        <h3 className="text-normal md:text-xl font-bold text-cyan-400 group-hover:text-pink-400 transition-colors font-mono">
           {title}
         </h3>
         <p className="text-gray-400 font-mono text-sm">{description}</p>
@@ -134,7 +141,7 @@ export function HolographicMarketplace() {
                 icon: <Shield className="h-10 w-10" />,
                 color: "from-green-400 to-cyan-500",
                 status: "FIELD_DEPLOYED",
-                link: "https://gastarbajter24.com",
+                link: "https://www.gastarbajter24.de/",
                 particles: "green",
               },
               {

@@ -88,17 +88,17 @@ export const CyborgVendorsSection: React.FC = () => {
               ].map((feature, index) => (
                 <div
                   key={index}
-                  className="flex items-center justify-between p-4 border-2 border-cyan-500/40 bg-black/40 backdrop-blur-sm relative overflow-hidden group"
+                  className="flex items-center justify-between py-4 px-2 md:px-4 border-2 border-cyan-500/40 bg-black/40 backdrop-blur-sm relative overflow-hidden group"
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/5 to-pink-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  <div className="flex items-center space-x-4 text-cyan-400 relative z-10">
+                  <div className="flex items-center space-x-1 md:space-x-4 text-xs md:text-sm text-cyan-400 relative z-10">
                     {feature.icon}
                     <span className="font-mono">{feature.text}</span>
                   </div>
                   <Badge
-                    className={`bg-${feature.color}-500/20 text-${feature.color}-400 border border-${feature.color}-500/50 font-mono relative`}
+                    className={`bg-${feature.color}-500/20 text-xs text-${feature.color}-400 border border-${feature.color}-500/50 font-mono relative`}
                   >
-                    <div className="absolute inset-0 bg-white/10 animate-pulse opacity-20" />
+                    <div className="absolute text-xs inset-0 bg-white/10 animate-pulse opacity-20" />
                     {feature.status}
                   </Badge>
                 </div>

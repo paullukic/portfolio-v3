@@ -53,21 +53,21 @@ export const CyberpunkNavbar: React.FC<CyberpunkNavbarProps> = ({
           <Wifi className="text-green-400 h-4 w-4 animate-pulse" />
           <a
             href="/"
-            className="text-xl max-w-30 font-bold text-transparent hover:scale-105 transition-transform duration-300"
+            className="text-xl max-w-32 font-bold text-transparent hover:scale-105 transition-transform duration-300"
           >
-            <h1 className="text-xs max-w-30 md:text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-pink-500 to-yellow-400 font-mono tracking-wider">
+            <h1 className="text-xs max-w-32 md:text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-pink-500 to-yellow-400 font-mono tracking-wider">
               {glitchText}
             </h1>
-            <div className="absolute max-w-30 inset-0 text-xs md:text-xl font-bold text-green-400 opacity-20 animate-pulse font-mono tracking-wider blur-sm">
+            <div className="absolute max-w-32 inset-0 text-xs md:text-xl font-bold text-green-400 opacity-20 font-mono tracking-wider blur-sm">
               {glitchText}
             </div>
-            <div className="absolute max-w-30 inset-0 text-xs md:text-xl font-bold text-pink-400 opacity-10 animate-ping font-mono tracking-wider">
+            <div className="absolute max-w-32 inset-0 text-xs md:text-xl font-bold text-pink-400 opacity-10 font-mono tracking-wider">
               {glitchText}
             </div>
           </a>
         </div>
 
-        <div className="flex items-center space-x-4 md:space-x-6">
+        <div className="flex items-center space-x-2 md:space-x-6">
           {linkedinUrl && (
             <Tooltip>
               <TooltipTrigger>
