@@ -119,7 +119,7 @@ export function HolographicMarketplace() {
                 title: "COLLABWRITING_NEXUS",
                 tech: "svelte_ SpringBoot",
                 description:
-                  "End-to-end dev of research SaaS: PDF engine, social scrapers, Chrome fallback, Kindle sync, AI fuzzy search.",
+                  "End-to-end dev of research SaaS: Core, PDF engine, social scrapers, Chrome fallback, Kindle sync, AI fuzzy search.",
                 icon: <Cpu className="h-10 w-10" />,
                 color: "from-cyan-400 to-blue-500",
                 status: "LIVE_NET",
