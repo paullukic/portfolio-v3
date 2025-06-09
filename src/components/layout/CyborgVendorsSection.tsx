@@ -20,7 +20,7 @@ export const CyborgVendorsSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             <div className="space-y-6">
-              <Badge className="bg-gradient-to-r from-pink-500 to-yellow-500 text-black font-mono font-bold text-lg px-4 py-2 relative overflow-hidden">
+              <Badge className="bg-gradient-to-r from-pink-500 mr-2 to-yellow-500 text-black font-mono font-bold text-lg px-4 py-2 relative overflow-hidden">
                 <div className="absolute inset-0 bg-white/20 animate-ping opacity-30" />
                 AUTHORIZED_DEALERS
               </Badge>
